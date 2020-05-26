@@ -1,0 +1,61 @@
+body
+{ 
+margin: 0;
+padding: 0;
+animation: bgcolor infinite 20s;
+}
+
+@keyframes bgcolor{
+0%
+{ background: #9932CC;
+}
+20%
+{ background: #6495ED;
+}
+40%
+{ background: #DDA0DD;
+}
+60%
+{ background: #87CEEB;
+}
+80%
+{ background: #D8BFD8;
+}
+100%
+{ background: #FF69B4;
+}
+}
+h1{
+text-font: arial;
+text-color:#FF00FF;
+}
+h1:hover {
+  background-color: #B22222;
+}
+a:hover{
+ background-color: green;
+}
+#frm{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  border: solid grey 1px;
+  border-radius: 5 px;
+  background: #FFB6C1;
+  padding:50 px;
+}
+#btn{
+ text-align:center;
+ margin-left: auto;
+ margin-right: auto;
+ color: black;
+ background:#FF00FF;
+ padding: 5 px;
+ margin-left:10%
+}
+#btn:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
